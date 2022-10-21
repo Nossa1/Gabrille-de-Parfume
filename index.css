@@ -1,0 +1,81 @@
+body{
+    background-color: hsl(30, 15%, 80%)
+}
+.container{
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0%;
+    position: absolute;
+    border-radius: 4%;
+}
+.myProduct{
+    color: rgb(133, 133, 133);
+    font-size: 14px;
+    left: 275px;
+    position: relative;
+    font-family: 'Outfit', sans-serif;
+}
+.myTitle{
+    
+    left: 275px;
+    top: 30px;
+    right: 20px;
+   line-height: 30px;
+    position: absolute;
+    font-family: 'Fraunces', serif;
+
+
+}
+.myParagraph{
+    color: rgb(133, 133, 133);
+    left: 275px;
+    top: 140px;
+    right: 20px;
+    font-size: 14px;
+    position: absolute;
+    font-family: 'Outfit', sans-serif;
+}
+.myPrice{
+    left: 275px;
+    top: 240px;
+    position: absolute;
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+   color:  hsl(158, 36%, 37%);
+}
+.myDiscount{
+    left: 410px;
+    top: 248px;
+    position: absolute;
+    font-family: 'Outfit', sans-serif; 
+    text-decoration: line-through;
+    
+}
+.myBtn{
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+    left: 270px;
+    top: 320px;
+    position: absolute;
+    padding: 10px 60px;
+    background-color: hsl(158, 36%, 37%);
+    border-color: hsl(158, 100%, 22%);;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    border: 0;
+}
+.myImg{
+    position: absolute;
+    width: 250px;
+    height: 400px;
+    top: 0;
+    left: 0;
+    border-top-left-radius: 4%;
+    border-bottom-left-radius: 4%;
+}
